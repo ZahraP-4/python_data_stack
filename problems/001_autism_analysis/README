@@ -1,0 +1,19 @@
+## Autism Phenotype Probabilistic Analysis
+
+This project analyzes phenotypic data from the **ABIDE II (Autism Brain Imaging Data Exchange II)
+
+dataset to explore probabilistic representations of behavioral differences among individuals.
+
+The analysis uses questionnaire-based behavioral data, particularly **Social Responsiveness Scale (SRS)** scores, together with contextual variables such as age, sex, and diagnostic group. The goal is to preprocess and organize these variables so they can be used to construct proxy-based probabilistic representations of individual behavioral profiles.
+
+The notebook includes a data processing pipeline that performs:
+
+- Data cleaning and filtering of participants with valid diagnostic labels
+- Handling missing values using group-based imputation
+- Normalization of SRS subscale scores
+- Construction of proxy behavioral variables
+- Preparation of the dataset for probabilistic modeling
+
+These proxy variables summarize key behavioral dimensions such as social motivation, social cognition, and repetitive behaviors. The resulting processed dataset can then be used to examine how contextual variables relate to probabilistic representations of individual differences.
+
+This repository demonstrates a research-oriented data preprocessing workflow implemented using Python data science tools.
